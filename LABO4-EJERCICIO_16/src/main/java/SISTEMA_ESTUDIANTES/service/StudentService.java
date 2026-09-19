@@ -6,6 +6,7 @@ package SISTEMA_ESTUDIANTES.service;
 
 import SISTEMA_ESTUDIANTES.model.Student;
 import SISTEMA_ESTUDIANTES.repository.StudentRepository;
+import java.util.ArrayList;
 
 public class StudentService {
     private StudentRepository repository;
@@ -28,4 +29,8 @@ public class StudentService {
         repository.guardar(student);
         System.out.println("Estudiante registrado.");
     }
+    
+    public ArrayList<Student> listar() {
+    return repository.listar();
+}
 }

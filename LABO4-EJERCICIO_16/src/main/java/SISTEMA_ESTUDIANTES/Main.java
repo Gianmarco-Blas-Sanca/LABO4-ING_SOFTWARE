@@ -40,5 +40,13 @@ public class Main {
         }
 
         scanner.close();
+        
+        System.out.println("\nLISTA DE ESTUDIANTES REGISTRADOS");
+        for (Student s : controller.listar()) {
+        System.out.println(s.codigo + " - " + s.nombre + " - " + s.carrera);
+         }
+        
     }
+        
+        
 }
