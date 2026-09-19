@@ -1,0 +1,20 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package SISTEMA_ESTUDIANTES.controller;
+
+import SISTEMA_ESTUDIANTES.model.Student;
+import SISTEMA_ESTUDIANTES.service.StudentService;
+
+public class StudentController {
+    private StudentService service;
+
+    public StudentController(StudentService service) {
+        this.service = service;
+    }
+
+    public void registrar(Student student) {
+        service.registrar(student);
+    }
+}
