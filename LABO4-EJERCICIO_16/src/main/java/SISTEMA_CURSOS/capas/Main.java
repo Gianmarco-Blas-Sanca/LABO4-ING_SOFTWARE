@@ -4,13 +4,13 @@
  */
 
 
-package SISTEMA_ESTUDIANTES;
+package SISTEMA_CURSOS.capas;
 
 import java.util.Scanner;
-import SISTEMA_ESTUDIANTES.controller.StudentController;
-import SISTEMA_ESTUDIANTES.model.Student;
-import SISTEMA_ESTUDIANTES.repository.StudentRepository;
-import SISTEMA_ESTUDIANTES.service.StudentService;
+import SISTEMA_ESTUDIANTES.capas.controller.StudentController;
+import SISTEMA_ESTUDIANTES.capas.model.Student;
+import SISTEMA_ESTUDIANTES.capas.repository.StudentRepository;
+import SISTEMA_ESTUDIANTES.capas.service.StudentService;
 
 public class Main {
     public static void main(String[] args) {
