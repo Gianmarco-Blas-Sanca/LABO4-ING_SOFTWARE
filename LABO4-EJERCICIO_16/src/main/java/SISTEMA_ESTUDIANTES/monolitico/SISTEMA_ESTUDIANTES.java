@@ -7,7 +7,6 @@ package SISTEMA_ESTUDIANTES.monolitico;
 import java.util.ArrayList;
 
 public class SISTEMA_ESTUDIANTES {
-
     static ArrayList<String> estudiantes = new ArrayList<>();
 
     public static void main(String[] args) {
