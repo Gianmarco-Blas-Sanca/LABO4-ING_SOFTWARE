@@ -32,5 +32,5 @@ public class StudentService {
     
     public ArrayList<Student> listar() {
     return repository.listar();
-}
+    }
 }

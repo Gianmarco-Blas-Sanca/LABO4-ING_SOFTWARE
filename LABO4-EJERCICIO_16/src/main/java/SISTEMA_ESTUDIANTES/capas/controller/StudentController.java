@@ -20,5 +20,5 @@ public class StudentController {
     
     public ArrayList<Student> listar() {
     return service.listar();
-}
+    }
 }
